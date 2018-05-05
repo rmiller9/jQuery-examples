@@ -4,7 +4,8 @@
 
 var imageWidth, verticalOffset, element, offset, offsetTop, menuSelect;
 var menuItems = [];
-/* for larger pages, loadImages checks the size of the containing div and if it is large enough to accommodate a larger image it swaps the default 250px wide image with a wider one if such a file exists. 425px files are appended with _md and 850px files with _lg. 
+/* for larger pages, loadImages checks the size of the containing div and if it is large enough to accommodate a larger image it swaps
+/* the default 250px wide image with a wider one if such a file exists. 425px files are appended with _md and 850px files with _lg. 
 */
 var loadImages = function(elm){
 	var itemImages = [];
