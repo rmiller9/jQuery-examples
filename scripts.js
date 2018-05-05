@@ -12,7 +12,6 @@ var loadImages = function(elm){
 	
 	itemImages = $(elm);
 	$(itemImages).each(function(){
-//		currentImage = $(this).data("image");
 		currentImage = $(this).find(" img").attr("src");
 			if(typeof currentImage !== "undefined") {
 				if(imageWidth > 424 && imageWidth < 900 ){
